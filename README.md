@@ -36,14 +36,30 @@ The test suite covers two scenarios:
 ## Running Tests
 
 ```bash
+python test.py
+```
+
+or with verbose output:
+
+```bash
 python -m unittest test -v
 ```
 
-Expected output:
+Expected output (`python test.py`):
 
 ```
-test_modulo_by_zero (test.TestModulo) ... ok
-test_modulo_success (test.TestModulo) ... ok
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+```
+
+Expected output (`python -m unittest test -v`):
+
+```
+test_modulo_by_zero (test.TestModulo.test_modulo_by_zero) ... ok
+test_modulo_success (test.TestModulo.test_modulo_success) ... ok
 
 ----------------------------------------------------------------------
 Ran 2 tests in 0.000s
