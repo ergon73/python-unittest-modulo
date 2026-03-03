@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+.cursorrules
+genai-readme.md
+human-readme.md
